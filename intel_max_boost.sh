@@ -16,6 +16,7 @@
 # SPDX-License-Identifier: MIT
 # Usage: sudo ./intel_max_boost.sh [--dry-run] [--log-file PATH]
 #        sudo ./intel_max_boost.sh --help
+# Tested on Dell 7820
 
 set -euo pipefail
 shopt -s extglob

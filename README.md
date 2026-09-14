@@ -4,6 +4,7 @@ Apply max-boost MSR tuning on Intel Xeon Gold (Skylake-SP).
 
 > **WARNING: writing MSRs can crash, overheat, or permanently damage hardware.**
 > Requires an unlocked-MSR BIOS (pre-Plundervolt-mitigation). Use at your own risk.
+> Tested on Dell 7820
 
 ## What it does
 
