@@ -1,10 +1,9 @@
 # intel_max_boost
 
-Apply max-boost MSR tuning on Intel Xeon Gold (Skylake-SP). Tested on a Dell Precision 7820.
+Apply max-boost MSR tuning on Intel Xeon Gold (Skylake-SP).
 
 > **WARNING: writing MSRs can crash, overheat, or permanently damage hardware.**
-> Know what each MSR does on your CPU before running. Requires an unlocked-MSR BIOS
-> (pre-Plundervolt-mitigation). Use at your own risk.
+> Requires an unlocked-MSR BIOS (pre-Plundervolt-mitigation). Use at your own risk.
 
 ## What it does
 

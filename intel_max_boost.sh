@@ -2,7 +2,6 @@
 #
 # intel_max_boost.sh — apply max-boost MSR tuning on Intel Xeon Gold (Skylake-SP).
 #
-# Tested on: Dell Precision 7820 with Xeon Gold 6138 / 8138-class Skylake-SP.
 # Requires: unlocked MSR BIOS (pre-Plundervolt-mitigation), msr-tools, root.
 #
 # What it does:
@@ -37,7 +36,7 @@ Options:
   -h, --help           Show this help and exit.
 
 Requires: root, msr-tools (wrmsr/rdmsr), unlocked MSR BIOS.
-Tested on: Dell 7820, Xeon Gold Skylake-SP.
+Target: Xeon Gold Skylake-SP.
 EOF
 }
 
@@ -158,7 +157,7 @@ warn_hardware() {
   else
     warn "lscpu not found; skipping CPU identification"
   fi
-  warn "tested on Xeon Gold Skylake-SP (Dell 7820). Other CPUs are untested."
+  warn "values target Xeon Gold Skylake-SP. Other CPUs are untested."
   warn "requires unlocked MSR BIOS; writes can crash or damage hardware."
 }
 
